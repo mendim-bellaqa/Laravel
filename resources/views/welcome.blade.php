@@ -42,6 +42,8 @@
 
             .content {
                 text-align: center;
+                height: 900px;
+                font-family: "Lucida Console", Courier, monospace;
             }
 
             .title {
@@ -51,11 +53,12 @@
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 24px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                font-family: "Lucida Console", Courier, monospace;
             }
 
             .m-b-md {
@@ -81,18 +84,18 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Mendim
+               
+                    HF
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                
+                    <a href="/home">HOME</a>
+                    <a href="/services">SERVICES</a>
+                    <a href="/contact">CONTACT</a>
+                    <a href="/about">ABOUT</a>
+                    
+                    
                 </div>
             </div>
         </div>
