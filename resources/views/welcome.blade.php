@@ -96,7 +96,7 @@
 
                 <div class="links">
                     <a href="/welcome">HOME</a>
-                    <a href="/welcome">ette</a>
+                    <a href="/welcome">dgdg</a>
                     <a href="/categories">CATEGORIES</a>
                     <a href="/contact">CONTACT</a>
                     <a href="/about">ABOUT</a>
