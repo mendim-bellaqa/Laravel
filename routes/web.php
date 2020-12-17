@@ -22,14 +22,14 @@ Route::get('/test', function () {
     return view('test');
     
 });
-Route::get('/home', function () {
+Route::get('/welcome', function () {
     
-    return view('home');
+    return view('welcome');
 
 });
-Route::get('/services', function () {
+Route::get('/categories', function () {
   
-    return view('services');
+    return view('categories');
 
 });
 Route::get('/about', function () {
@@ -40,6 +40,12 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     
     return view('contact');
+
+});
+
+Route::get('/maps', function () {
+    
+    return view('maps');
 
 });
 
