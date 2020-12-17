@@ -96,6 +96,7 @@
 
                 <div class="links">
                     <a href="/welcome">HOME</a>
+                    <a href="/welcome">2</a>
                     <a href="/categories">CATEGORIES</a>
                     <a href="/contact">CONTACT</a>
                     <a href="/about">ABOUT</a>
