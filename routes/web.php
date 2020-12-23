@@ -14,51 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $name = "<script>document.location = 'http://google.com';</script>";
+
    
-    return view('welcome');
-});
-Route::get('/test', function () {
-       
-    return view('test');
-    
-});
-Route::get('/welcome', function () {
-    
-    return view('welcome');
+    return view('welcome', [
+        "name" => $name
+    ]);
 
 });
-Route::get('/categories', function () {
-  
-    return view('categories');
+Route::get('/hack', function () {
+    $name = "<script>document.location = 'http://google.com';</script>";
+   
+    return view("hack", [
+        "name" => $name
+    ]);
 
-});
-Route::get('/about', function () {
-    
-    return view('about');
-
-});
-Route::get('/contact', function () {
-    
-    return view('contact');
-
-});
-
-Route::get('/maps', function () {
-    
-    return view('maps');
-
-});
-
-
-
-Route::get('/contact', [
-    'uses' => 'ContactUsFormController@createForm'
-]);
-
-// Post form data
-Route::post('/contact', [
-    'uses' => 'ContactUsFormController@ContactUsForm',
-    'as' => 'contact.store'
-]);
-
-
+})->name('hack');
