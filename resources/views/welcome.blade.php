@@ -21,10 +21,13 @@ a {
   display: block;
   /* width: 1453px;  */
   position: relative;
+  border-style: ridge;
+  border-width: thick;
+  
 }
 
 a:hover {
-  background-color: #555;
+  background-color: #923f39;
 }
 
 a:active {
@@ -32,7 +35,9 @@ a:active {
 }
 
 a:visited {
-  background-color: #ccc;
+  background-color: #923f39;
+  border: 2px;
+  border-style: solid;
 } 
 
 </style>
@@ -50,6 +55,11 @@ a:visited {
     <a href="#tasks" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">MEMBER TASKS</a> 
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    
+    <a href="{{URL::to('views')}}" style: border-style: solid; ="w3-bar-item w3-button w3-hover-white" >VIEWS</a>
+    <a href="{{URL::to('login')}}">Login</a>
+
+
   </div>
 </nav>
 
@@ -220,6 +230,9 @@ a:visited {
 
 <!-- End page content -->
 </div>
+
+
+
 
 <!-- W3.CSS Container -->
 <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://google.com" title="W3.CSS" target="_blank" class="w3-hover-opacity">mendim_bellaqa</a></p></div>

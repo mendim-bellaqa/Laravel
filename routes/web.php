@@ -30,3 +30,8 @@ Route::get('/hack', function () {
     ]);
 
 })->name('hack');
+
+
+Route::view('/views', 'views');
+
+Route::view('/login', 'login');
