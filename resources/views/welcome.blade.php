@@ -50,10 +50,10 @@ a:visited {
     <h3 class="w3-padding-64"><b>LARAVEL<br>LEARNING</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="#Services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">SERVICES</a> 
-    <a href="#tasks" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">MEMBER TASKS</a> 
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a> 
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="#Services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">SERVICES</a>
+    <a href="#tasks" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">MEMBER TASKS</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a>
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
     
     <a href="{{URL::to('views')}}" style: border-style: solid; ="w3-bar-item w3-button w3-hover-white" >VIEWS</a>
@@ -106,7 +106,7 @@ a:visited {
     </div>
   </div>
 
- <p><a href="{{route('hack', $name)}}" class="btn btn-info btn-xs">Click me</a> 
+
 
 
   <!-- Services -->
@@ -176,7 +176,7 @@ a:visited {
         <li class="w3-padding-16">Working flexibility</li>
         <li class="w3-padding-16">Creativity</li>
         <li class="w3-padding-16">Working fast</li>
-        <li class="w3-padding-16">Deadlines</li>
+  
         <li class="w3-padding-16">
           <h2>$ 1999</h2>
           <span class="w3-opacity">per member</span>
@@ -191,9 +191,8 @@ a:visited {
       <ul class="w3-ul w3-light-grey w3-center">
         <li class="w3-red w3-xlarge w3-padding-32">Pro Tasks Cost</li>
         <li class="w3-padding-16">Deadline</li>
-        <li class="w3-padding-16">Hours support for team members</li>
+        <li class="w3-padding-16">Hours support TM</li>
         <li class="w3-padding-16">Project menager</li>
-        <li class="w3-padding-16">Faster than deadline is</li>
         <li class="w3-padding-16">Experience</li>
         <li class="w3-padding-16">
           <h2>$ 5499</h2>

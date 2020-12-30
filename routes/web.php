@@ -13,25 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    $name = "<script>document.location = 'http://google.com';</script>";
 
-   
-    return view('welcome', [
-        "name" => $name
-    ]);
 
-});
-Route::get('/hack', function () {
-    $name = "<script>document.location = 'http://google.com';</script>";
-   
-    return view("hack", [
-        "name" => $name
-    ]);
-
-})->name('hack');
-
+Route::view('/', 'welcome');
 
 Route::view('/views', 'views');
 
 Route::view('/login', 'login');
+
+Route::view('/welcome', 'welcome');

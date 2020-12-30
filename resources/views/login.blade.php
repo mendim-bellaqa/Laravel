@@ -32,8 +32,19 @@
             <input type='checkbox' value='TRUE' title='Keep me Signed in' /> Keep me Signed in
           </label>
 
-        	<input type='submit' id='do_login' value='GET STARTED' title='Get Started' />
+          <input type='submit' id='do_login' value='GET STARTED' title='Get Started' />
+          
+          
+         
       </div>
+      
+      </div>
+<div class='box-form'>
+
+<a href="/welcome" id='do_login' >HOME</a>
+
+</div>
+
     </div>
   </div>
   <div class='box-info'>
@@ -45,12 +56,6 @@
     					<div class='line-wh'></div>
     <button onclick="" class='b-cta' title='Sign up now!'> CREATE ACCOUNT</button>
   				</div>
-</div>
-
-
- <div class='icon-credits'>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/budi-tanrim" title="Budi Tanrim">Budi Tanrim</a> & <a href="http://www.flaticon.com/authors/nice-and-serious" title="Nice and Serious">Nice and Serious</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-  
- <script type="text/javascript" src="{{ asset('js/login-js.js') }}"></script>
 
  </body>
 </html>
